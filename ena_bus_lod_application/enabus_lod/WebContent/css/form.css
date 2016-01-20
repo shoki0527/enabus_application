@@ -1,0 +1,87 @@
+
+/* --- フォームエリア --- */
+form.contact {
+width: 700px; /* フォームエリアの幅 */
+font-size: 80%;
+}
+/* --- フォームエリア内の段落 --- */
+form.contact p {
+line-height: 130%;
+}
+/* --- 段落内の「必須」画像 --- */
+form.contact p.attention img {
+vertical-align: middle;
+}
+
+/* --- テーブル --- */
+form.contact table {
+width: 100%; /* テーブルの幅 */
+background-color: #f9f9f9; /* テーブルの背景色 */
+border: 1px #c0c0c0 solid; /* テーブルの境界線 */
+}
+/* --- 見出しセル（th） --- */
+form.contact th {
+width: 140px; /* 見出しセルの幅 */
+padding: 10px 8px; /* 見出しセルのパディング（上下、左右） */
+background-color: #f5f5f5; /* 見出しセルの背景色 */
+border-bottom: 1px #c0c0c0 dotted; /* 見出しセルの下境界線 */
+text-align: left;
+line-height: 130%;
+}
+/* --- 見出しセル内の補足テキスト --- */
+form.contact th span.supplement {
+font-weight: normal;
+}
+/* --- データセル（td） --- */
+form.contact td {
+padding: 10px 5px 7px; /* データセルのパディング（上、左右、下） */
+background-color: #ffffff; /* データセルの背景色 */
+border-bottom: 1px #c0c0c0 dotted; /* データセルの下境界線 */
+}
+/* --- データセル内の補足テキスト --- */
+form.contact td span.supplement {
+color: #808080;
+}
+/* --- 必須項目セル --- */
+form.contact td.required {
+width: 26px; /* 必須項目セルの幅 */
+padding: 10px 3px; /* 必須項目セルのパディング（上下、左右） */
+background-color: #c4e6fa; /* 必須項目セルの背景色 */
+text-align: center;
+}
+/* --- 任意項目セル --- */
+form.contact td.arbitrary {
+background-color: #e0f1fc; /* 任意項目セルの背景色 */
+}
+
+/* --- フォーム部品 --- */
+form.contact input,
+form.contact select,
+form.contact textarea {
+margin-bottom: 2px; /* フォーム部品の下マージン */
+}
+/* --- フォーム部品のサイズ --- */
+/* --- （長めのテキスト入力欄） --- */
+#company, #section, #name, #name2,
+#email, #address {
+width: 350px; /* フォーム部品の幅 */
+}
+/* --- （短めのテキスト入力欄） --- */
+#tel1, #tel2, #tel3,
+#fax1, #fax2, #fax3 {
+width: 70px; /* フォーム部品の幅 */
+}
+#zip1, #zip2 {
+width: 70px; /* フォーム部品の幅 */
+}
+/* --- （複数行のテキスト入力欄） --- */
+#message {
+width: 420px; /* フォーム部品の幅 */
+height: 10em; /* フォーム部品の高さ */
+}
+
+/* --- ボタン --- */
+form.contact p.button {
+margin: 20px 0 0; /* ボタンのマージン（上、左右、下） */
+text-align: center;
+}
